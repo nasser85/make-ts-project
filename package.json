@@ -1,8 +1,11 @@
 {
   "name": "make-ts-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node script for generating boilerplate for a typescript project.",
-  "main": "index.js",
+  "bin": {
+    "make-ts-project": "bin/index.js"
+  },
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin"
