@@ -1,0 +1,24 @@
+{
+  "name": "make-ts-project",
+  "version": "1.0.0",
+  "description": "A node script for generating boilerplate for a typescript project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "generate",
+    "boilerplate"
+  ],
+  "author": "Nasser Abouelazm",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "url": "^0.11.0"
+  },
+  "type": "module"
+}
