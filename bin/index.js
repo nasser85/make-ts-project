@@ -13,7 +13,10 @@ const packageJSON = () => JSON.stringify(
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc --build",
+      "clean": "rm -rf dist",
+      "prepublishOnly": "npm run clean && npm run build",
+      "test": "jest"
     },
     "author": "",
     "license": "MIT",
